@@ -23,5 +23,6 @@ public class CrabWorld extends World
         addObject(new Worm(), 380, 330);
         addObject(new Worm(), 410, 270);
         addObject(new Worm(), 530, 30);
+        showText( "Score: ", 50, 500);
     }
 }
